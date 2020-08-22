@@ -1,6 +1,6 @@
 <?php
 require("includes/common.php");
-
+require('../vendor/autoload.php');
 if (isset($_SESSION['email'])) {
     header('location: products.php');
 }
